@@ -4,7 +4,7 @@
  * Copyright 2015 Nikolay <Nikolay@REX>
  * 
  * 
- * Version 1.1
+ * Version 1.2
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -98,7 +98,7 @@ int main()
 	char start_file[] = "E:\\Garant.SRV\\start.txt";
 	
 	cout << ".............:::Start checker utulity:::.............." << endl;
-	cout << "..................... Version 1.1 ...................." << endl;
+	cout << "..................... Version 1.2 ...................." << endl;
 	cout << "......................................................" << endl;
 	
 	remove(start_file);
