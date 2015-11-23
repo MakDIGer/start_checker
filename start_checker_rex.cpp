@@ -4,7 +4,7 @@
  * Copyright 2015 Nikolay <Nikolay@REX>
  * 
  * 
- * Version 1.2.1
+ * Version 1.2.2
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -95,16 +95,16 @@ string time_now()
 
 int main()
 {
-	char start_file[] = "E:\\Garant.SRV\\start.txt";
+	char start_file[] = "D:\\Garant.SRV\\start.txt";
 	
 	cout << ".............:::Start checker utulity:::.............." << endl;
-	cout << "..................... Version 1.2.1 .................." << endl;
+	cout << "..................... Version 1.2.2 .................." << endl;
 	cout << "...................... REX Edition ..................." << endl;
 	
 	remove(start_file);
 	
 	checking:
-	if (check_file("E:\\Garant.SRV\\","start.txt"))
+	if (check_file("D:\\Garant.SRV\\","start.txt"))
 	{
 		cout << endl;
 		cout << time_now() << "::There is Etalon" << endl;
